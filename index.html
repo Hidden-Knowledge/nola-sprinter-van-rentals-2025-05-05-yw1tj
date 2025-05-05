@@ -3,28 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Directory Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NOLA Sprinter Van Rentals - Compare & Book Luxury Vans</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
 </head>
-<body class="font-sans antialiased">
+<body>
+    
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold text-blue-600">NOLA Vans</a>
+                <a href="https://Hidden-Knowledge.github.io/nola-sprinter-van-rentals-2025-05-05-yw1tj/" class="text-2xl font-bold text-blue-600">NOLA Vans</a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#listings" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Listings</a>
                     <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About</a>
                     <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
                 </div>
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl text-gray-600"></i>
+                </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4">
+                <a href="#listings" class="block py-2 px-4 text-gray-600 hover:bg-blue-50">Listings</a>
+                <a href="#about" class="block py-2 px-4 text-gray-600 hover:bg-blue-50">About</a>
+                <a href="#contact" class="block py-2 px-4 text-gray-600 hover:bg-blue-50">Contact</a>
             </div>
         </nav>
     </header>
 
-    <section class="relative h-[50vh] flex items-center justify-center bg-gradient-to-r from-blue-500 to-blue-600">
-        <div class="absolute inset-0 bg-black/20"></div>
+    <section class="relative h-[50vh] flex items-center justify-center bg-[url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center">
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-blue-600/70 backdrop-blur-sm"></div>
         <div class="relative text-center text-white px-6">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">NOLA Sprinter Van Rentals</h1>
-            <p class="text-xl md:text-2xl mb-8">Compare 50+ Luxury Vans & Book Instantly</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 drop-shadow-lg">NOLA Sprinter Van Rentals</h1>
+            <p class="text-xl md:text-2xl mb-8 drop-shadow">Compare 50+ Luxury Vans & Book Instantly in New Orleans</p>
             <a href="https://nolasprintervanrentals.com" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Book Now</a>
         </div>
     </section>
@@ -32,43 +48,49 @@
     <section id="listings" class="container mx-auto px-6 py-16">
         <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Available Van Rentals</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
-                <div class="p-6">
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden hover:scale-[1.02] border border-gray-100">
+                <div class="relative p-6">
+                    <span class="absolute top-2 right-2 bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-medium">Luxury</span>
                     <h3 class="text-xl font-semibold mb-3 text-gray-800">Big Easy Van Rentals</h3>
                     <p class="text-gray-600 mb-4">12-15 passenger luxury Sprinters with WiFi & airport pickup</p>
                     <a href="https://bigeasyvans.com" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300">View Details</a>
                 </div>
             </div>
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
-                <div class="p-6">
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden hover:scale-[1.02] border border-gray-100">
+                <div class="relative p-6">
+                    <span class="absolute top-2 right-2 bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm font-medium">Party</span>
                     <h3 class="text-xl font-semibold mb-3 text-gray-800">Crescent City Party Vans</h3>
                     <p class="text-gray-600 mb-4">Mardi Gras-ready vans with neon lighting & sound systems</p>
                     <a href="https://crescentcityvans.com" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300">View Details</a>
                 </div>
             </div>
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
-                <div class="p-6">
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden hover:scale-[1.02] border border-gray-100">
+                <div class="relative p-6">
+                    <span class="absolute top-2 right-2 bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-medium">Airport</span>
                     <h3 class="text-xl font-semibold mb-3 text-gray-800">MSY Airport Vans</h3>
                     <p class="text-gray-600 mb-4">Same-day rentals near Louis Armstrong Airport</p>
                     <a href="https://msyvans.com" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300">View Details</a>
                 </div>
             </div>
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
-                <div class="p-6">
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden hover:scale-[1.02] border border-gray-100">
+                <div class="relative p-6">
+                    <span class="absolute top-2 right-2 bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-medium">Events</span>
                     <h3 class="text-xl font-semibold mb-3 text-gray-800">Jazz Fest Transportation</h3>
                     <p class="text-gray-600 mb-4">AC-equipped vans with coolers for festival groups</p>
                     <a href="https://jazzfestvans.com" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300">View Details</a>
                 </div>
             </div>
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
-                <div class="p-6">
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden hover:scale-[1.02] border border-gray-100">
+                <div class="relative p-6">
+                    <span class="absolute top-2 right-2 bg-yellow-100 text-yellow-600 px-3 py-1 rounded-full text-sm font-medium">Budget</span>
                     <h3 class="text-xl font-semibold mb-3 text-gray-800">Budget NOLA Vans</h3>
                     <p class="text-gray-600 mb-4">No-frills 8-passenger vans from $59/day</p>
                     <a href="https://budgetnolavans.com" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300">View Details</a>
                 </div>
             </div>
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
-                <div class="p-6">
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden hover:scale-[1.02] border border-gray-100">
+                <div class="relative p-6">
+                    <span class="absolute top-2 right-2 bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm font-medium">Executive</span>
                     <h3 class="text-xl font-semibold mb-3 text-gray-800">Elite Corporate</h3>
                     <p class="text-gray-600 mb-4">Executive Sprinters with leather & conference tables</p>
                     <a href="https://elitecorpvans.com" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300">View Details</a>
@@ -89,27 +111,28 @@
         <p class="text-gray-600 max-w-3xl mx-auto text-center leading-relaxed">Welcome to NOLA Sprinter Van Rentals, New Orleans' premier directory for luxury van rentals. We connect travelers, event planners, and businesses with the finest selection of Sprinter vans in the Greater New Orleans area. Our curated listings feature everything from budget-friendly options to premium executive transports, ensuring you'll find the perfect vehicle for your needs.</p>
     </section>
 
-    <footer class="bg-gray-800 text-white py-12">
+    <footer id="contact" class="bg-gray-800 text-white py-12">
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Contact Us</h3>
                     <p class="text-gray-300">Email: info@nolasprintervanrentals.com</p>
+                    <p class="text-gray-300 mt-2">Phone: (504) 555-0123</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Terms of Service</a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="https://Hidden-Knowledge.github.io/nola-sprinter-van-rentals-2025-05-05-yw1tj/privacy.html" class="text-gray-300 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://Hidden-Knowledge.github.io/nola-sprinter-van-rentals-2025-05-05-yw1tj/terms.html" class="text-gray-300 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://Hidden-Knowledge.github.io/nola-sprinter-van-rentals-2025-05-05-yw1tj/blog.html" class="text-gray-300 hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Facebook</a>
-                        <a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Twitter</a>
-                        <a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Instagram</a>
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors duration-300"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors duration-300"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors duration-300"><i class="fab fa-instagram fa-lg"></i></a>
                     </div>
                 </div>
             </div>
@@ -118,5 +141,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+
 </body>
 </html>
